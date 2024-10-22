@@ -24,3 +24,5 @@ console.log("How many mice?", deskDrawer["mice"])
 console.log("What color of pencil pouch?", deskDrawer["pencilPouch"]["color"])
 
 console.log("How many mice do you have to use?", deskDrawer.mice)
+console.log("Is the drawer locked:", deskDrawer.lock, " And there are", deskDrawer.numDrawers, "mice.")
+console.log("Is there sunblock?",deskDrawer["pencilPouch"]["sunblock"])
